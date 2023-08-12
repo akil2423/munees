@@ -60,7 +60,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000"
 ]
 
-ROOT_URLCONF = 'WeatherApp.urls'
+ROOT_URLCONF = 'MyProject.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'WeatherApp.wsgi.application'
+WSGI_APPLICATION = 'MyProject.wsgi.application'
 
 
 # Database
